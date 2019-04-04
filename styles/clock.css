@@ -1,5 +1,6 @@
 /*  */
 *{ box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+
 .table{ display: table; width: 100%; }
 .cell{ display: table-cell; }
 
@@ -16,9 +17,7 @@
     padding: 20px 10px;
     max-width: 600px;
 }
-.row{
-    margin-bottom: 25px;
-}
+.row{ margin-bottom: 25px; }
 .time-element{ /* cell's */
     border: 1px solid rgba(0,0,0,0.2);
     height: 40px;
@@ -34,31 +33,21 @@
 .secondsCircle.on{ background-color: rgb(232, 207, 20) }
 
 /* Hour 5 */
-.hour5.on{
-    background-color: rgb(237, 59, 59);
-}
+.hour5.on{ background-color: rgb(237, 59, 59); }
 
 /* Hour 1 */
-.hour1.on{
-    background-color: rgb(237, 59, 59);
-}
+.hour1.on{ background-color: rgb(237, 59, 59); }
 
 /* Minute 5 */
-.minute5.on{
-    background-color: rgb(232, 207, 20);
-}
-.minute5.red.on{
-    background-color: rgb(237, 59, 59);
-}
+.minute5.on{ background-color: rgb(232, 207, 20); }
+.minute5.red.on{ background-color: rgb(237, 59, 59); }
 
 /* Minute 1 */
-.minute1.on{
-    background-color: rgb(232, 207, 20);
-}
+.minute1.on{ background-color: rgb(232, 207, 20); }
 
 /* actualTime */
 .actualTime{
-    width: 82px;
+    width: 95px;
     font-size: 16px;
 }
 
