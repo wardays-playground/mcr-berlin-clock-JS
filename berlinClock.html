@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Berlin Clock | Marc Colell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/clock.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="clock-box ma">
+            <div class="table row"> <!-- Row seconds -->
+                <div class="cell s1">
+                    <div class="secondsCircle shadow ma">
+                        <!-- Circulo de los segundos -->
+                    </div>
+                </div>
+            </div>
+            <div class="table shadow row"> <!-- Row hour 5 -->
+                <div class="cell hour5 time-element"></div>
+                <div class="cell hour5 time-element"></div>
+                <div class="cell hour5 time-element"></div>
+                <div class="cell hour5 time-element"></div>
+            </div>
+            <div class="table shadow row"> <!-- Row hour 1 -->
+                <div class="cell hour1 time-element"></div>
+                <div class="cell hour1 time-element"></div>
+                <div class="cell hour1 time-element"></div>
+                <div class="cell hour1 time-element"></div>
+            </div>
+            <div class="table shadow row"> <!-- Row minute 5 -->
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 red time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 red time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 red time-element"></div>
+                <div class="cell minute5 time-element"></div>
+                <div class="cell minute5 time-element"></div>
+            </div>
+            <div class="table shadow row"> <!-- Row minute 1 -->
+                <div class="cell minute1 time-element"></div>
+                <div class="cell minute1 time-element"></div>
+                <div class="cell minute1 time-element"></div>
+                <div class="cell minute1 time-element"></div>
+            </div>
+        </div>
+        <div class="actualTime ma"></div>
+    </div>
+    <script src="./js/clock.js"></script>
+</body>
+
+</html>
